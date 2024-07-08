@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product filter & Search</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <form action="" class="filter-form">
+                <!-- item  -->
+            <div class="item">
+
+                <label for="">Type</label>
+
+                <select name="type" id="">
+
+                    <option value="">--Choose Type--</option>
+                    <option value="T-shirt">T-shirt</option>
+                    <option value="Shirt">Shirt</option>
+                    <option value="Polo">Polo</option>
+                    <option value="Blouse">Blouse</option>
+                    
+                </select>
+            </div>
+
+            <!-- item  -->
+            <div class="item">
+
+                <label for="">Color</label>
+
+                <select name="color" id="">
+
+                    <option value="">--Choose Color--</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                    <option value="black">Black</option>
+                    
+                </select>
+            </div>
+
+            <!-- item  -->
+
+            <div class="item">
+
+                <label for="">Item Name</label>
+                <input type="text" name="itemname" placeholder="Enter item name">
+                
+            </div>
+            <!-- item  -->
+
+            <div class="item">
+
+                <label for="">Min Price</label>
+                <input type="number" name="minprice" placeholder="Enter minimum price">
+                
+            </div>
+            <!-- item  -->
+
+            <div class="item">
+
+                <label for="">Max Price</label>
+                <input type="number" name="maxprice" placeholder="Enter maximum price">
+                
+            </div>
+
+            <div class="item">
+
+                <button>Search</button>
+
+            </div>
+
+        </form>
+
+        <div class="result-count">
+            Found <b id="count"> 5</b> results
+        </div>
+
+        <div class="search-results">
+
+            <div class="item">
+
+                <img src="assets/p3.jpeg" alt="">
+
+                <div class="item-name">Name</div>
+
+                <div class="item-price">Price</div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+1. background-image: linear-gradient(to bottom right, rgb(214, 181, 232), rgb(242, 181, 238));
+
+2. to get all elements in target
+
+        const searchElement = e.target.elements;
+
+       element accessible by class name
+
+3. return false; will not return
+
+    if(i.variants.type != searchElement.type.value){
+
+                return false;
+            }
+
+4. .includes(searchElement.color.value)
+
+    search for each letter
+
+if(!i.variants.color.includes(searchElement.color.value))
+
+5. .toFixed(2))
+
+to display 2 deimal points
+
